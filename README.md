@@ -19,3 +19,9 @@ https://www.hackerrank.com/domains/tutorials/cracking-the-coding-interview
 * Week 3 (4/30/18 - 5/6/18)
   * Hash Tables: Ransom Note
   * https://www.hackerrank.com/challenges/ctci-ransom-note/problem
+* Week 4 (5/7/18 - 5/13/18)
+  * Linked Lists: Detect a Cycle
+  * https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem
+* Week 5 (8/11/18 - 8/17/18)
+  * Array Minimum Swap 2
+  * https://www.hackerrank.com/challenges/minimum-swaps-2/problem
