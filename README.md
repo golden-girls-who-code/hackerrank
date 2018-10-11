@@ -2,7 +2,7 @@
 Hello ladies and germs!
 
 Let's prepare ourselves for the incredibly arduous and mind-numbing task of interview preparation.
-Each week, we will work on HackerRank challenges, and commit what ever we have to this repo by Sunday.
+Each week, we will work on HackerRank challenges, and commit what ever we have to this repo by the *dum dum DUUUMMM* DEADLINE.
 
 Feel free to each out to your soul sisters for comfort and help. We're here for you!
 
