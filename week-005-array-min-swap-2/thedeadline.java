@@ -1,5 +1,5 @@
 /**
-* Solution to hackerrank min swap problem in Java.
+* Solution to hackerrank min swap problem in Java: https://www.hackerrank.com/challenges/minimum-swaps-2/problem
 *
 * @author Isabelle Giuong - github.com/thedeadline
 */
@@ -16,15 +16,23 @@ public class Solution {
 
     // Complete the minimumSwaps function below.
     static int minimumSwaps(int[] arr) {
-        int counter = 0;
-        for (int currentIndex = 0; currentIndex < arr.length-1; currentIndex++) {
+        int counter = 0, currentIndex = 0;
+        //using while loop in this case means I don't have to do currentIndex-- to recheck the new number in that position
+        while (currentIndex < arr.length-1) {
             int currentNum = arr[currentIndex];
-            if (currentNum != currentIndex+1) {
+            if (currentNum == currentIndex+1 || currentNum == 0) {
+                currentIndex ++;
+            }
+            else{
+              // handle non-consecutive test case where the number is bigger than arrayindex.
                 int index2 = ((currentNum <= arr.length) ? currentNum : arr.length) - 1;
                 int num2 = arr[index2]; //find what's at its index and save it.
-                arr[index2] = currentNum; //put the element in its proper spot.
+                /** I know n >= 1 so I can set ones that were swapped into the right position to 0
+                * and then skip it when I get to it later instead of putting it in the proper spot and recheck.
+                * This change takes the time complexity from N to N/2
+                */
+                arr[index2] = 0;
                 arr[currentIndex] = num2; //put whatever was in there in currentIndex.
-                currentIndex --; //don't move pointer up. recheck number. can probably do this recursively
                 counter ++;
             }
         }
