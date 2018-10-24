@@ -25,6 +25,6 @@ https://www.hackerrank.com/domains/tutorials/cracking-the-coding-interview
 * Week 5 (8/11/18 - 8/17/18)
   * Array Minimum Swap 2
   * https://www.hackerrank.com/challenges/minimum-swaps-2/problem
-* Week 6 (8/18/18 - 8/24/18)
+* Week 6 (10/18/18 - 10/24/18)
   * New Year Chaos
   * https://www.hackerrank.com/challenges/new-year-chaos/problem
